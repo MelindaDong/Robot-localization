@@ -1,2 +1,3 @@
 # Robot-localization
-Robot-localization in 2D and 3D 
+
+Robot localization is the process of determining where a mobile robot is located con- cerning its environment.
