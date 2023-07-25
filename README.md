@@ -26,10 +26,10 @@ X000X0XX00
 0.2                   >> sensor’s error rate
 ```
 
-if $d_it$ denotes the number of directions are reporting erroneous values, then the probability that a robot at position i would receive a sensor reading $e_t$ is:
+if $d_(it)$ denotes the number of directions are reporting erroneous values, then the probability that a robot at position i would receive a sensor reading $e_t$ is:
 
 $$
-P(E_t = e_t|X_t = i) = (1-\varepsilon )^{4-d_it}\cdot \varepsilon ^{d_it}
+P(E_t = e_t|X_t = i) = (1-\varepsilon )^{4-d_(it)}\cdot \varepsilon ^{d_(it)}
 $$
 
 
@@ -60,7 +60,7 @@ XX0XXX0XXX000X
 similiar with 2D model, the observation/emission model for 3D is:
 
 $$
-P(E_t = e_t|X_t = i) = (1-\varepsilon )^{6-d_it}\cdot \varepsilon ^{d_it}
+P(E_t = e_t|X_t = i) = (1-\varepsilon )^{6-d_(it)}\cdot \varepsilon ^{d_(it)}
 $$
 
 `viterbi_3d.py` can be called as:  $ python viterbi_3d.py [input]  
