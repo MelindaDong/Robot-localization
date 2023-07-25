@@ -4,11 +4,11 @@ Robot localization is the process of determining where a mobile robot is located
 
 The sensors’ error rate is ε and that errors occur independently for the four sensors(north/south/west/east).
 
-Our goal is to find where is the robot and the most possible path of the robot through a sequence of sensor readings.
+__Our goal is to find where is the robot and the most possible path of the robot through a sequence of sensor readings.__
 
-The initial state of robot is uniform distributed in all traversable positions.
+__The initial state of robot is uniform distributed in all traversable positions.__
 
-The output is a list of maps(matrix) with each element represent the possibility of robot being at that position at that time step.
+__The output is a list of maps(matrix) with each element represent the possibility of robot being at that position at that time step.__
 
 ### 2D input
 The 2D input format are as follows:
