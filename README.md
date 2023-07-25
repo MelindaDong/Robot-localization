@@ -1,6 +1,14 @@
 # Robot-localization
 
-Robot localization is the process of determining where a mobile robot is located con- cerning its environment. A map of the environment is available and the robot is equipped with sensors that observe the environment as well as monitor its own motion.
+Robot localization is the process of determining where a mobile robot is located concerning its environment. A map of the environment is available and the robot is equipped with sensors that observe the environment as well as monitor its own motion.
+
+The sensors’ error rate is ε and that errors occur independently for the four sensors(north/south/west/east).
+
+Our goal is to find where is the robot and the most possible path of the robot through a sequence of sensor readings.
+
+The initial state of robot is uniform distributed in all traversable positions.
+
+The output is a list of maps(matrix) with each element represent the possibility of robot being at that position at that time step.
 
 ### 2D input
 The 2D input format are as follows:
@@ -17,6 +25,8 @@ X000X0XX00
 1100
 0.2                   >> sensor’s error rate
 ```
+if $d^{it}$ denotes the number of directions are reporting erroneous values, then the probability that a robot at position i would receive a sensor reading $e_t$ is:
+
 
 `viterbi.py` accept 2D map as input, can be called as:
 
