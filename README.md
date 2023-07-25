@@ -33,9 +33,7 @@ P(E_t = e_t|X_t = i) = (1-\varepsilon )^{4-d_it}\cdot \varepsilon ^{d_it}
 $$
 
 
-`viterbi.py` accept 2D map as input, can be called as:
-
-$ python viterbi.py [input]  
+`viterbi.py` can be called as:   $ python viterbi.py [input]  
 
 ### 3D input
 The 3D input format are as follows:
@@ -65,6 +63,4 @@ $$
 P(E_t = e_t|X_t = i) = (1-\varepsilon )^{6-d_it}\cdot \varepsilon ^{d_it}
 $$
 
-`viterbi_3d.py` accept 3D map as input, can be called as:
-
-$ python viterbi_3d.py [input]  
+`viterbi_3d.py` can be called as:  $ python viterbi_3d.py [input]  
