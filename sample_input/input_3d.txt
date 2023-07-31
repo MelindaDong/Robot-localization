@@ -1,0 +1,18 @@
+11 7 2
+X X X X 0 0 X X 0 X X X X X
+X 0 0 0 0 X X 0 X X 0 X 0 0
+0 X 0 X 0 X 0 X 0 0 0 0 0 0
+0 0 0 X 0 0 0 X 0 X X X X X
+0 X X X 0 0 X X X X X 0 X 0
+0 X 0 0 X X 0 0 X X X 0 X 0
+X 0 X X X 0 0 0 X X X X X 0
+X X 0 X X X 0 X X X 0 0 0 X
+0 0 0 0 0 X X 0 0 0 0 0 0 X
+X X X 0 X X 0 0 X X 0 X 0 X
+0 X 0 0 X X 0 X 0 0 0 X 0 X
+4
+000111
+000011
+000001
+101110
+0.3
